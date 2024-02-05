@@ -1,15 +1,14 @@
+// scala-cli experimental:
 //> using jvm 17
 //> using scala 2
-//> using dep org.scala-js::scalajs-library:1.15.0
 //> using dep org.scala-js:::scalajs-dom:2.8.0
-// use sbt fastOptJS or sbt fullOptJS
+
+// use sbt fastOptJS or sbt fullOptJS to create javascript
 
 package webpage
 import org.scalajs.dom
 import org.scalajs.dom.{document, html}
 import scala.scalajs.js.annotation.JSExportTopLevel
-//import slinky.web.ReactDOM
-//import slinky.web.html._
 
 object HelloJSWorld {
   def main(args: Array[String]): Unit = {
@@ -18,12 +17,6 @@ object HelloJSWorld {
     document.getElementById("content").innerHTML = "This is a tutorial on using Scala.js."
     appendParagraph(document.getElementById("content"), "This is a new paragraph.")
     drawToCanvas(document.getElementById("canvas").asInstanceOf[html.Canvas])
-
-//    ReactDOM.render(
-//      TopComponent (),
-//      document.getElementById("react-root")
-//    )
-
   }
 
   def appendParagraph(target: dom.Node, text: String): Unit = {

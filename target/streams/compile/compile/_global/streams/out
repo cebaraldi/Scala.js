@@ -1,7 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/home/sprk/devel/jvm/scala/2/Scala.js/HellojsWorld/src/main/scala/webpage/HelloJSWorld.scala:11:8: not found: object slinky[0m
-[0m[[0m[31merror[0m] [0m[0mimport slinky.web.ReactDOM[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/sprk/devel/jvm/scala/2/Scala.js/HellojsWorld/src/main/scala/webpage/HelloJSWorld.scala:12:8: not found: object slinky[0m
-[0m[[0m[31merror[0m] [0m[0mimport slinky.web.html._[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
